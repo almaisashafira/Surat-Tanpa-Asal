@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box; 
+}
+
+.container{
+    background-color: #A6B1E1;
+    width: 30%;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    font-family: vividly;
+    color: #424874;
+    font-size: larger;
+}
+
+.container input{
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 9px;
+    font-size: larger;
+    border: none;
+}
+
+.container .sbutton{
+    width: 20%;
+    background-color: #424874;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 75%;
+}

@@ -1,0 +1,11 @@
+body{
+    background: #F4EEFF;  
+}
+
+.container-fluid{
+    font-family: honey and raspberries;
+}
+
+.container-fluid .navbar-brand{
+    color: #424874;
+}

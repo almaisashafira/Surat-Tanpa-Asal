@@ -1,0 +1,41 @@
+body{
+    background-color:  #F4EEFF; 
+    font-family: vividly;
+}
+
+.container .mail{
+    width: 100%;
+    margin-right: 90%;
+}
+
+.container .mail .slogan{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: #424874;
+    background-color: #DCD6F7;
+    width: 35%;
+    text-align: center;
+}
+
+.container .mail .pic{
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 20%;
+}
+
+.container .paragraph{
+    background-color: antiquewhite;
+    width: 50%;
+    margin-left: 0%;
+}
+
+.container .text{
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+    background-color: #A6B1E1;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #424874;
+    margin-top: 0px;
+}

@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    background-color:  #F4EEFF;
+}
+
+.container-fluid{
+    font-family: honey and raspberries;
+}
+
+.container-fluid .navbar-brand{
+    color: #424874;
+}
+
+.container-form{
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    font-family: vividly;
+    color: #424874;
+    font-size: larger;
+}
+
+.container{
+    background-color: #A6B1E1;
+    width: 30%;
+}
+
+.container-form input{
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 9px;
+    font-size: larger;
+    border: none;
+}
+
+.container-form .sbutton{
+    width: 20%;
+    background-color: #424874;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 75%;
+}

@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class MahasiswaController extends Controller
+class SuratController extends Controller
 {
     public function readData(){
         $kotak_surat= DB::table('kotak_surat')->get();
-        return view ('mahasiswa', ['kotak_surat'=>$kotak_surat]);
+        return view ('surat', ['kotak_surat'=>$kotak_surat]);
     }
 
     public function input(){
@@ -23,11 +23,11 @@ class MahasiswaController extends Controller
             'isi' =>$request->isi
         ]);
 
-        return redirect('/datamahasiswa');
+        return redirect('/datasurat');
     }
 
     public function edit($id){
-        //ambil data mahasiswa berdasarkan nim
+        //ambil data surat berdasarkan id
         $kotak_surat = DB::table('kotak_surat')->where('id', $id)->get();
 
         //untuk passing data
@@ -41,13 +41,13 @@ class MahasiswaController extends Controller
             'isi' => $request->input('isi')
         ]);
 
-        return redirect('/datamahasiswa');
+        return redirect('/datasurat');
     }
 
     public function hapus($id){
-        //ambil data mahasiswa berdasarkan nim
+        //ambil data surat berdasarkan id
         DB::table('kotak_surat')->where('id', $id)->delete();
 
-        return redirect('/datamahasiswa');
+        return redirect('/datasurat');
     }
 }

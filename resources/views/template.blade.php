@@ -23,7 +23,7 @@
                 <a class="nav-link active" aria-current="page" href="/home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="/datamahasiswa">Kotak Surat</a>
+                <a class="nav-link active" href="/datasurat">Kotak Surat</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="/tambahdata">Tambah Surat</a>

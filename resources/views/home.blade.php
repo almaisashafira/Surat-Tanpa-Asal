@@ -12,7 +12,7 @@
 
     <div class="container">
         <div class ="mail">
-            <a href="{{URL::to('/datamahasiswa')}}">
+            <a href="{{URL::to('/datasurat')}}">
             <img class="pic" src="/img/mail.jpeg" alt="mail">
             </a>
             <h2 class="slogan"> Find Mail That Addressed To You! </h2>
